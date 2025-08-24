@@ -44,3 +44,13 @@ For when you're too lazy to jump and have energy to spare.
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 4.
 
 ![Jump storage by using spear](/assets/SpearJump.gif)
+
+## Using Bash
+Keep in mind this won't work if Ori goes into the Bash position too high off the ground. 
+1. Hold down the **Glide** button.
+2. **Bash** an enemy.
+3. At any point after reaching the peak of the bash trajectory, release **Glide** and immediately press **Jump** again.
+
+You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 3.
+
+![Jump storage by using bash](/assets/BashGlideJump.gif)

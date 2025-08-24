@@ -56,7 +56,9 @@ You can use the following abilities while holding down **Glide** without losing 
 * Sentry
 
 In water and in sand you can use anything and nothing, since the game won't update your status regardless.
-Make sure you hold down Glide when you want to exit into the air again.
+Make sure you hold down Glide before going into the air again, as you will lose the grounded status
+as soon as you exit to the surface. On water you can also safely tread the surface without losing the
+jump storage.
 * Water Dash
 * Bash (in water, because you can't bash in sand)
 * Burrow
