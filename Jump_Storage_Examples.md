@@ -67,3 +67,16 @@ a lot of height.
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 4 and 5.
 
 ![Jump storage movement underwater](/assets/WaterDashJumpStorage.gif)
+
+## Using Burrow to set up storage in sand
+This works when burrowing from any side, not just from above. Just make sure you're standing on solid ground.
+
+1. While being **grounded** close to sand, use **Burrow** to enter the sand.
+2. You can freely move around in sand for as long as you'd like.
+3. When you want to use your stored jump, hold down **Glide**.
+4. Use **Burrow** to exit the sand.
+5. At any point after reaching the peak of the trajectory, release **Glide** and immediately press **Jump** again.
+
+You are free to glide around as much as you'd like without touching the ground or any walls between steps 4 and 5.
+
+![Jump storage movement in sand](/assets/BurrowJumpStorage.gif)
