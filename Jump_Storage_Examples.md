@@ -54,3 +54,16 @@ Keep in mind this won't work if Ori goes into the Bash position too high off the
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 3.
 
 ![Jump storage by using bash](/assets/BashGlideJump.gif)
+
+## Using WaterDash to set up storage in water
+This is redundant with just gliding down to water with jump storage, but extremely powerful to exit water with
+a lot of height.
+1. While being **grounded** close to water, use **WaterDash** to enter the water. Alternatively, **Glide** down into water with jump storage ready.
+2. You can freely move around in water for as long as you'd like. You can also tread the surface.
+3. When you want to use your stored jump, hold down **Glide**.
+4. Use **WaterDash** to exit the water.
+5. At any point after reaching the peak of the trajectory, release **Glide** and immediately press **Jump** again.
+
+You are free to glide around as much as you'd like without touching the ground or any walls between steps 4 and 5.
+
+![Jump storage movement underwater](/assets/WaterDashJumpStorage.gif)
