@@ -70,9 +70,11 @@ If you have multiple jumps and see Ori curl into a ball, you either lost the jum
 exit jump.
 
 Successful:
+
 ![Standing Glide Jump](/assets/StandingGlideJump.gif)
 
 Failed:
+
 ![Failed Standing Glide Jump](/assets/StandingGlideJump_Failed.gif)
 
 
