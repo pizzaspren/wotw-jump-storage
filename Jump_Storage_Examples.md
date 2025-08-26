@@ -3,45 +3,47 @@
 All the methods described in this section assume that Ori is standing still on solid ground with no
 buttons pressed unless otherwise stated.
 
-## Standing Glide Jump
-The most straightforward way to store a jump! You only need to:
-1. Hold down the **Glide** button.
-2. Hold down the **Jump** button.
-3. Once Ori has reached the peak of the jump, release the **Jump** button.
-4. At any point after reaching the peak of the jump, release **Glide** and immediately press **Jump** again.
-
-You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 4.
-
-![Standing Glide Jump](/assets/StandingGlideJump.gif)
-
-## Running Glide Jump
-A bit more tricky than Standing Glide Jumps.
-1. Hold down **Right** or **Left** to get Ori moving.
-2. Hold down the **Jump** button and, immediately after, hold down the **Glide** button.
-3. Once Ori has reached the peak of the jump, release the **Jump** button. 
-4. At any point after reaching the peak of the jump, release **Glide** and immediately press **Jump** again.
-
-You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 4.
-
-![Running Glide Jump](/assets/RunningGlideJump.gif)
-
 ## Running off a ledge
-Same as Standing Glide Jumps but without actually jumping? I don't know, I don't make the rules here.
+The most straightforward way to store a jump! You only need to:
 1. Hold down the **Glide** button.
 2. Hold down **Right** or **Left** to have Ori walk off a ledge.
 3. At any point, release **Glide** and immediately press **Jump**.
 
-You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 3.
+You are free to glide around as much as you'd like without touching the ground or any walls between
+steps 2 and 3.
 
 ![Jump storage running off a ledge](/assets/LedgeGlideJump.gif)
 
-## Using Spear
-For when you're too lazy to jump and have energy to spare.
-1. Throw out a Spear.
-2. (Optionally) Hold down **Glide** at any point before the spear animation finishes. If you choose to do this, you can then glide around to other places.
-3. (If pressed, release **Glide** and immediately...) Press **Jump** right as Ori finishes turning around.
+## Standing Glide Jump
+1. Hold down the **Glide** button.
+2. **Jump**. Pressing the button for longer will make Ori jump higher.
+3. At any point after Ori starts gliding down, release **Glide** and immediately press **Jump** again.
 
-You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 4.
+You are free to glide around as much as you'd like without touching the ground or any walls between
+steps 2 and 3.
+
+![Standing Glide Jump](/assets/StandingGlideJump.gif)
+
+## Running Glide Jump
+A bit more tricky than Standing Glide Jumps. The problem with moving sideways is that it interferes
+with the jump logic, so you need to start gliding *after* leaving the ground.
+1. Hold down **Right** or **Left** to get Ori moving.
+2. **Jump** and, within the coyote frames, hold down the **Glide** button. Pressing the jump button for longer will make Ori jump higher.
+3. At any point after Ori starts gliding down, release **Glide** and immediately press **Jump** again.
+
+You are free to glide around as much as you'd like without touching the ground or any walls between
+steps 2 and 3.
+
+![Running Glide Jump](/assets/RunningGlideJump.gif)
+
+## Using Spear
+
+1. Throw out a Spear.
+2. Press **Jump** right as Ori finishes turn-around animation.
+
+You can optionally hold Glide during the spear animation to move around once it has finished. If you
+choose to do so, you can glide around as much as you'd like without touching the ground or any walls
+before jumping.
 
 ![Jump storage by using spear](/assets/SpearJump.gif)
 
@@ -49,7 +51,7 @@ You are free to glide around as much as you'd like without touching the ground o
 Keep in mind this won't work if Ori goes into the Bash position too high off the ground. 
 1. Hold down the **Glide** button.
 2. **Bash** an enemy.
-3. At any point after reaching the peak of the bash trajectory, release **Glide** and immediately press **Jump** again.
+3. At any point after Ori starts gliding down, release **Glide** and immediately press **Jump**.
 
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 2 and 3.
 
@@ -62,7 +64,7 @@ a lot of height.
 2. You can freely move around in water for as long as you'd like. You can also tread the surface.
 3. When you want to use your stored jump, hold down **Glide**.
 4. Use **WaterDash** to exit the water.
-5. At any point after reaching the peak of the trajectory, release **Glide** and immediately press **Jump** again.
+5. At any point after Ori starts gliding down, release **Glide** and immediately press **Jump**.
 
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 4 and 5.
 
@@ -75,7 +77,7 @@ This works when burrowing from any side, not just from above. Just make sure you
 2. You can freely move around in sand for as long as you'd like.
 3. When you want to use your stored jump, hold down **Glide**.
 4. Use **Burrow** to exit the sand.
-5. At any point after reaching the peak of the trajectory, release **Glide** and immediately press **Jump** again.
+5. At any point after Ori starts gliding down, release **Glide** and immediately press **Jump**.
 
 You are free to glide around as much as you'd like without touching the ground or any walls between steps 4 and 5.
 
