@@ -39,7 +39,7 @@ time.
 
 *(Work in Progress)* 
 
-## What makes Jump Storage possible
+# What makes Jump Storage possible
 
 All the Jump Storage setups so far follow the same approach:
 
@@ -59,57 +59,61 @@ Once Ori has reached the desired position, jumps are re-enabled and a coyote jum
 
 For a full list of known setups and step-by-step guides, read [the examples page](/Jump_Storage_Examples.md).
 
-1. Hold down **Glide** before walking off a ledge.
-2. Hold down **Glide** before jumping.
-3. While moving sideways, jump and hold down **Glide** before the coyote frames expire.
-4. Throw out a **Spike** (Spear), until Ori finishes turning around.
-5. **Bash** an enemy that's *not too far** above the ground. 
-6. Use **Water Dash**** while standing on ground.
-7. Use **Burrow**** while standing on ground.
-
-# WIP below this line
-
-*This is difficult to judge. It depends on how far off the ground Ori is while bashing. Basically, if
-the enemy is small and you are both on the ground you're good. For tall enemies like Gorleks you need
-to be directly beneath the center point of the enemy, which means you need to take contact damage.
-
-**The game engine doesn't care about updating your grounded status while you're in water or in sand.
-Therefore, as long as you enter water or sand while the engine thinks you're grounded you can move around
-freely without losing the grounded status.
+1. Using **Glide**.
+    * Hold down **Glide** before walking off a ledge.
+    * Hold down **Glide** before jumping.
+    * While moving sideways, jump and hold down **Glide** before the coyote frames expire.
+2. Using **Spike** (Spear).
+    * The jump is stored until Ori finishes turning around. Roughly after the spear starts traveling.
+3. Using **Bash**.
+    * Holding **Bash** on enemies that are small and on the ground does not update coyote frames.
+    * Tall enemies like Gorlek Miners can still be bashed if Ori is mostly centered beneath them. However, this requires taking contact damage.
+4. Use **Water Dash** to go into water while standing on ground.
+    * The game won't update the coyote frames until you leave the water.
+5. Use **Burrow** to go into sand while standing on ground.
+    * The game won't update the coyote frames until you leave the sand.
 
 ## Moving around with a stored jump
 
-You can use the following abilities while holding down **Glide** without losing the stored jump:
-* Spear (Spike)
-* Grenade (Light Burst)
-* Flap
-* Blaze
-* Flash
-* Sentry
+If you're storing a jump for later, you will probably want to reach a state where Ori is slowly gliding down.
+Because you can't jump in water nor sand, you will eventually have to be in the air to use the jump.
 
-In water and in sand you can use anything and nothing, since the game won't update your status regardless.
-Make sure you hold down Glide before going into the air again, as you will lose the grounded status
-as soon as you exit to the surface. On water you can also safely tread the surface without losing the
-jump storage.
-* Water Dash
-* Bash (in water, because you can't bash in sand)
-* Burrow
+***Landing on the ground or touching any walls while Gliding will immediately cancel your stored jump.***
 
-## How to use a stored jump
+That being said, you have several options for moving Ori while 
 
-At any point after the peak of the jump, release the **Glide** button and *immediately* press **Jump**.
-If you timed it correctly, Ori will jump with the same animation as a basic jump.
-
-If you have multiple jumps and see Ori curl into a ball, you either lost the jump storage or mistimed the
-exit jump.
-
-Successful:
-
-![Standing Glide Jump](/assets/StandingGlideJump.gif)
-
-Failed:
-
-![Failed Standing Glide Jump](/assets/StandingGlideJump_Failed.gif)
+* In air you must hold **Glide** until you want to use the stored jump. This is the only known way so far to keep the stored jump for a long time. Additionally, you can also use the following abilities *while holding Glide*.
+    * Spear (Spike).
+    * Grenade (Light Burst).
+    * Flap.
+    * Blaze.
+    * Flash.
+    * Sentry.
+* In water, you can do whatever you want as long as you don't leave water.
+    * To go into air for the jump, you must first hold **Glide** and exit the water using **WaterDash**. 
+* In sand, you can do whatever you want as long as you don't leave sand.
+    * To go into air for the jump, you must first hold **Glide** and exit the sand.
+    * If you are leaving sand by going up, you will need to use **Burrow** to go high above the ground. This prevents Ori from standing on the ground right away and ruining your stored jump.
+    * If you are leaving sand by going down, you don't need anything special. 
 
 
+## Using the stored jump
 
+Using the stored jump is the same as doing a Coyote Jump. However, instead of running off a ledge you will
+*usually* be releasing **Glide** once Ori is slowly gliding down. As a reminder, you can perform a coyote
+jump when Ori is falling down and you still have coyote frames available.
+
+1. Slowly glide down. 
+2. Release **Glide**.
+3. Press **Jump** before your coyote frames expire.
+
+If you managed to preserve the stored jump and you time the jump correctly, Ori will perform a basic jump
+mid-air.
+
+![Jump storage example](/assets/LedgeGlideJump.gif)
+
+If you fail to initially store the jump, lose the jump storage along the way, or mistime the exit jump:
+   * If you don't have any extra jumps (Double Jump, Triple Jump, ...), Ori will fall down normally.
+   * If you have extra jumps, Ori will curl into a ball and use one of the extra jumps.
+
+![Failed Glide Jump with double jump](/assets/FailedGlideJump.gif)
